@@ -14,3 +14,4 @@ In the project directory, you can run:
 
 ## App Preview
 
+![alt text](https://raw.githubusercontent.com/badawi1713/learn-rtl-jest/master/public/images/misc/01-home.png)
