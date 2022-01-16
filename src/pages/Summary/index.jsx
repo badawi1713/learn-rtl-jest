@@ -1,5 +1,6 @@
 import { Header } from 'components'
 import React from 'react'
+import SummaryForm from './SummaryForm'
 
 const Summary = () => {
     return (
@@ -22,13 +23,7 @@ const Summary = () => {
                 <h3 className='text-2xl font-medium'>Total $5.00</h3>
 
                 <h3 className='text-2xl font-medium'>Toppings: $3.00</h3>
-                <form >
-                    <label className="cursor-pointer label justify-start flex items-center gap-2">
-                        <input type="checkbox" className="checkbox checkbox-primary" />
-                        <span className="label-text">I agree to <span>Terms and Conditions</span> </span>
-                    </label>
-                    <button type='submit' className="btn mt-2 btn-primary w-full md:w-auto">Confirm Order</button>
-                </form>
+                <SummaryForm />
             </section>
         </>
     )
