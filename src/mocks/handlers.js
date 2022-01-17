@@ -73,4 +73,26 @@ export const handlers = [
       ])
     );
   }),
+  rest.get(`${baseURL}/toppings`, (req, res, ctx) => {
+    return res(
+      ctx.json([
+        {
+          name: "Colorful Sprinkles",
+          imagePath: "/images/sprinkles.jpeg",
+        },
+        {
+          name: "Chocolate Chips",
+          imagePath: "/images/choco-chips.jpg",
+        },
+        {
+          name: "Gummi bears",
+          imagePath: "/images/gummy-bear.jpg",
+        },
+        {
+          name: "Fresh Red Cherries",
+          imagePath: "/images/cherries.jpg",
+        },
+      ])
+    );
+  }),
 ];
